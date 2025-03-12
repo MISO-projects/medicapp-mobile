@@ -19,7 +19,7 @@ class WelcomeOnboardingActivity : AppCompatActivity() {
         }
         val textViewSkip = findViewById<TextView>(R.id.textView_skip)
         textViewSkip.setOnClickListener {
-            startActivity(Intent(this, AddMedicationActivity::class.java))
+            startActivity(Intent(this, MainActivity::class.java))
         }
     }
 }
