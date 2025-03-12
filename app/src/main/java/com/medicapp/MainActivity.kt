@@ -1,5 +1,6 @@
 package com.medicapp
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
@@ -53,6 +54,7 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.action_add -> {
+                    startActivity(Intent(this, AddMedicationActivity::class.java))
                     true
                 }
                 R.id.action_profile -> {
