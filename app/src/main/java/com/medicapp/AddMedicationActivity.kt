@@ -1,6 +1,7 @@
 package com.medicapp
 
 import android.app.DatePickerDialog
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.AutoCompleteTextView
@@ -43,25 +44,25 @@ class AddMedicationActivity : AppCompatActivity() {
         val etFechaInicio = findViewById<TextInputEditText>(R.id.etFechaInicio)
 
         tilFechaInicio.setEndIconOnClickListener {
-            // Obtén la fecha actual como predeterminada
             val c = Calendar.getInstance()
             val year = c.get(Calendar.YEAR)
             val month = c.get(Calendar.MONTH)
             val day = c.get(Calendar.DAY_OF_MONTH)
 
-            // Crea el DatePickerDialog
             val datePickerDialog = DatePickerDialog(this, { _, selectedYear, selectedMonth, selectedDay ->
-                // Formatea la fecha, recuerda que los meses inician en 0
                 val formattedDate = "$selectedDay/${selectedMonth + 1}/$selectedYear"
                 etFechaInicio.setText(formattedDate)
             }, year, month, day)
 
-            // Muestra el diálogo
             datePickerDialog.show()
         }
 
         val btnAgregar = findViewById<Button>(R.id.btnAgregar)
         btnAgregar.setOnClickListener {
+
+        }
+        btnChatBot.setOnClickListener {
+            startActivity(Intent(this, ChatbotActivity::class.java))
         }
     }
 }
