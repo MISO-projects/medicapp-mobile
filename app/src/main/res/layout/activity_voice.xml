@@ -40,5 +40,6 @@
         android:id="@+id/imageView_close"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_close"/>
+        app:srcCompat="@drawable/ic_close"
+        app:tint="@color/colorPrimary" />
 </LinearLayout>
