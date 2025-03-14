@@ -2,11 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="colorPrimary">#3B608F</color>
+    <color name="colorPrimary">#CCB1FC</color>
     <color name="colorPrimaryVariant">#3700B3</color>
     <color name="colorOnPrimary">#FFFFFF</color>
-    <color name="colorBackground">#F8F9FF</color>
-    <color name="colorSelected">#BCC7DB</color>
-    <color name="colorText">#3B608F</color>
-    <color name="colorTextVariant">#333538</color>
+    <color name="colorBackground">#FF000000</color>
+    <color name="colorSelected">#E6DAFB</color>
+    <color name="colorText">#C0A0FA</color>
+    <color name="colorTextVariant">#3B608F</color>
 </resources>
