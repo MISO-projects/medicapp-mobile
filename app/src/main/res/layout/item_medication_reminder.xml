@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:layout_margin="5dp"
-    android:background="#D8E3F8"
+    android:background="@color/colorSelected"
     android:padding="16dp">
 
     <LinearLayout
@@ -20,13 +20,14 @@
             android:layout_height="wrap_content"
             android:text="Ibuprofeno"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="@color/colorPrimary" />
+            android:textColor="@color/colorText" />
 
         <TextView
             android:id="@+id/tvMedicationInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="6:00 AM"
+            android:textColor="@color/colorTextVariant"
             android:textAppearance="?android:attr/textAppearanceSmall" />
 
         <TextView
@@ -34,6 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1 tableta"
+            android:textColor="@color/colorTextVariant"
             android:textAppearance="?android:attr/textAppearanceSmall" />
 
     </LinearLayout>
