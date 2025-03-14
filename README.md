@@ -87,11 +87,11 @@ Este proyecto es una aplicación desarrollada en Kotlin y Java, utilizando Gradl
 
 1. Clona el repositorio:
     ```sh
-    git clone https://github.com/tu-usuario/tu-repositorio.git
+    git clone https://github.com/MISO-projects/medicapp-mobile.git
     ```
 2. Navega al directorio del proyecto:
     ```sh
-    cd tu-repositorio
+    cd medicapp-mobile
     ```
 3. Abre el proyecto en Android Studio.
 
